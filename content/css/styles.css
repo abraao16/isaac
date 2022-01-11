@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}
+
+nav-list li:a:hover {
+    color: blueviolet;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    letter-spacing: 3px;
+    justify-content: space-around;
+    font-family: sans-serif;
+    background: black;
+    height: 8vh;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+main {
+
+    background: url(content/images/bg1.jpg) no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.title h1 {
+    color: black;
+    font-size: 40px;
+    font-family: sans-serif;
+    padding: 34px 4px;
+}
+
+.title h1:hover {
+    color: aqua;
+}
+
+.button {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+
+.btn {
+    border: 1px solid black;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: brown;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+    color: beige;
+}
