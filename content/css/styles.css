@@ -46,7 +46,7 @@ main {
     transform: translate(-50%, -50%)
 }
 
-.title h1 {
+.title h1 a {
     color: black;
     font-size: 40px;
     font-family: sans-serif;
